@@ -1,7 +1,8 @@
 # Raw data stays on this computer
-*.csv
+data/*.csv
 
-# Saved models will be retrained
+# Saved model binaries (local artifacts)
+artifacts/models/*.joblib
 *.joblib
 
 # Scratch notebooks
@@ -11,3 +12,8 @@ Untitled.ipynb
 # Jupyter checkpoints and empty scratch folder
 .ipynb_checkpoints/
 Untitled Folder/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/

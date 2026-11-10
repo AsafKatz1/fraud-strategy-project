@@ -1,0 +1,2 @@
+total_cost,precision,recall,tp,fp,fn,tn,strategy,amt_threshold,minutes_threshold,transactions_23_threshold,transactions_60min_threshold
+270843.98,0.340235485180674,0.5448634590377113,838,1625,700,256172,high_recall,250,50,2,2

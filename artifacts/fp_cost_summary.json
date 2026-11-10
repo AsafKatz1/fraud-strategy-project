@@ -1,0 +1,21 @@
+{
+  "method": "full_timeline_features__optimize_at_fp_30__test_robustness",
+  "optimization_fp_cost": 30,
+  "robustness_fp_costs": [
+    10,
+    30,
+    50,
+    100
+  ],
+  "frozen_xgb_threshold": 0.082,
+  "frozen_hybrid_high_threshold": 0.09199999999999998,
+  "frozen_hybrid_low_threshold": 0.016,
+  "mean_pct_reduction": 4.3878753264447425,
+  "median_pct_reduction": 4.167032618254411,
+  "min_pct_reduction": -18.635964978784074,
+  "max_pct_reduction": 27.853401048054227,
+  "std_pct_reduction": 16.950844755859915,
+  "hybrid_wins": 2,
+  "n_costs": 4,
+  "baseline_30_pct_reduction": 10.019335111860554
+}
