@@ -1,0 +1,13 @@
+# Raw data stays on this computer
+*.csv
+
+# Saved models will be retrained
+*.joblib
+
+# Scratch notebooks
+Fraud_Project_Try.ipynb
+Untitled.ipynb
+
+# Jupyter checkpoints and empty scratch folder
+.ipynb_checkpoints/
+Untitled Folder/
